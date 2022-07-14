@@ -1,16 +1,26 @@
 .App {
   text-align: center;
+  background-image: url("../assets/62ceae71401ef.jpg");
+  height: 65rem;
+  margin-top: -2rem;
+  padding-bottom: 0;
+}
+
+.header {
+  font-size: 38px;
+  padding-top: 3rem;
 }
 
 .List {
-  list-style: none;
   display: flex;
   align-items: center;
   width: 50rem;
-  margin: 0rem auto;
-  border: 0.1rem solid rgba(0, 0, 0, 0.233);
+  margin: 1rem auto;
+  border: 2px solid rgba(0, 0, 0, 0.233);
+  background-color: #eff3f7;
   padding: 1rem;
   justify-content: space-between;
+  border-radius: 2rem;
 }
 
 .List-header {
@@ -19,40 +29,53 @@
 }
 
 .List-header h2 {
-  color: rgb(37, 36, 36)
+  color: rgb(37, 36, 36);
+  margin-left: 1rem;
 }
 
 .List-img {
-  width: 4rem;
-  height: 4rem;
-  border-radius: 100%;
+  width: 4.3rem;
+  height: 4.3rem;
+  border-radius: 40%;
   margin-right: 0.5rem;
 }
 
 .List-note {
   width: 30%;
-  text-align: left;
+  text-align: center;
+  font-weight: bold;
+}
+
+.List-age {
+  display: flex;
+  text-align: center;
+  margin-inline-start: 5rem;
 }
 
 .AddToList {
   display: flex;
   flex-direction: column;
   width: 30rem;
-  margin: 5rem auto
+  margin: 3.5rem auto
 }
 
 .AddToList-input {
   padding: 0.5rem;
   font-size: 1rem;
-  margin: 0.3rem 0rem
+  margin: 0.3rem 0rem;
 }
 
 .AddToList-btn {
-  padding: 0.5rem;
+  margin-top: 0.6rem;
+  padding: 0.7rem;
   cursor: pointer;
-  background-color: #0b5468;
+  background-color: #2569cf;
   font-weight: 700;
   color: white;
-  border: none
+  border: none;
+  border-radius: 2rem;
 }
 
+.Wrapper-div {
+  padding-top: 1rem;
+}
